@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #07101D;
+    width: 1440px;
+}
+
+header::before{
+    content: '';
+    width: 904px;
+    height: 876px;
+    background-image: radial-gradient(#3d0d58 38%);
+    position:absolute;
+    filter:blur(70px);
+    opacity: 0.4;
+    right: -274px;
+    top: -273px;
+    z-index: -1;
+}
+
+.login-btn{
+    background-color: #FF3C00;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.w_70{
+    width: 70%;
+}
+
+@media  screen and (max-width:992.98px) {
+    .bg-dark-md{
+        background-color: var(--bs-secondary-color);
+    }
+}
+
+/* محتوای هدر */
+
+.title_main_header{
+    font-size: 4rem;
+}
+
+.bgc_FF3C00{
+    color: #FF3C00;
+}
+
+/* .border_FF3C00{
+    border: #FF3C00 !important;
+} */
+
+.border_ff3c00{
+    border: solid 1px #FF3C00;
+}
+
+.gradient_bg{
+    background-image: linear-gradient(to right, #7011AD,#BC0505,#FC630F);
+}
+
+/* main */
+
+.icon_size{
+    width: 81px;
+    height: 81px;
+    padding: 8px;
+}
+
+@media  screen and (max-width:768px) {
+    #wallet{
+        margin-top:30px !important;
+    }
+}
+
+.bgc_card{
+   background-color:rgba(255, 255, 255, 0.1) ;
+}
+
+.margin_crd{
+    margin-right: 20%;
+}
+
+/* ویژگی ها */
+
+#utility{
+    margin-top: 70px;
+    margin-right: 140px;
+}
+
+.part1_utility{
+    /* width: 30%; */
+    height: 240px;
+    border: 1px solid;
+    border-color:rgba(0, 255, 26, 1) ;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.icon1_utility{
+    width: 90px;
+    height: 89px;
+    border: 1px solid rgba(0, 255, 26, 1) ;
+    background-color: rgba(255, 255, 255, 0.1);
+    top: 0;
+    right: 120px;
+    border-radius: 20px;
+    z-index: 1;
+}
+.part2_utility{
+    /* width: 30%; */
+    height: 240px;
+    border: 1px solid;
+    border-color:rgba(83, 0, 255, 1) ;
+    background-color: rgba(255, 255, 255, 0.08);
+    ;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.icon2_utility{
+    width: 90px;
+    height: 89px;
+    border: 1px solid rgba(83, 0, 255, 1);
+    background-color: rgba(255, 255, 255, 0.08);
+
+    top: 0;
+    right: 120px;
+    border-radius: 20px;
+    z-index: 1;
+}
+.part3_utility{
+    /* width: 30%; */
+    height: 240px;
+    border: 1px solid;
+    border-color:rgba(255, 31, 0, 1);
+    background-color:rgba(255, 19, 4, 0.1) ;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.icon3_utility{
+    width: 90px;
+    height: 89px;
+    border: 1px solid rgba(255, 31, 0, 1);
+    background-color: rgba(255, 19, 4, 0.1);
+
+    top: 0;
+    right: 120px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+/* <!-- trend-content --> */
+
+.bgc_trend{
+    background-color:rgba(255, 255, 255, 0.1) ;
+}
+
+.img_trend{
+    /* width: 344px; */
+    height: 344px;
+}
+
+
+/* <!-- top-creators-content --> */
+.bgc_top_creators{
+    background-color:rgba(255, 255, 255, 0.1) ;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.form_submit{
+    /* width: 100%; */
+    height: 324px;
+    background-image: linear-gradient(to right,rgba(165, 14, 134, 1),rgba(193, 11, 112, 1),rgba(232, 57, 71, 1),rgba(223, 51, 13, 1),rgba(197, 82, 18, 1),rgba(211, 117, 6, 1));
+    border: 10px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+}
+
+/* footer */
+
+footer{
+    border: 1px solid rgba(255, 255, 255, 1) ;
+    background-color: rgba(9, 16, 40, 1);
+    /* width: 1440px; */
+    height: 343px;
+}
